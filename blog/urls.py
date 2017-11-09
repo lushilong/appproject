@@ -32,5 +32,5 @@ urlpatterns = [
         views.TagView.as_view(),
         name='tag'
     ),
-    url(r'^search/$', views.search, name='search'),
+    # url(r'^search/$', views.search, name='search'),
 ]
